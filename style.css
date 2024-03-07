@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 html,
 body {
   background-color: #fff;
@@ -59,52 +60,52 @@ main {
 }
 
 #form {
- position: relative;
- border: none;
- margin: 1px;
- border-radius: 8px;
- transition-duration: 0.218s;
- transition-property: background, border, opacity, box-shadow, transform;
- transition-timing-function: ease-in;
+  position: relative;
+  border: none;
+  margin: 1px;
+  border-radius: 8px;
+  transition-duration: 0.218s;
+  transition-property: background, border, opacity, box-shadow, transform;
+  transition-timing-function: ease-in;
 }
 
 .form-open {
- box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 header {
- display: flex;
- align-items: center;
- justify-content: center;
- margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
 }
 
 .header-logo {
- height: 4em;
+  height: 4em;
 }
 
 .header-title {
- color: #5f6368;
- font-size: 2rem;
- padding-top: 4px;
- padding-left: 4px;
+  color: #5f6368;
+  font-size: 2rem;
+  padding-top: 4px;
+  padding-left: 4px;
 }
 
 #notes {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #note-text {
- width: calc(100%-10px);
+  width: calc(100% - 10px);
   min-height: 43px;
   margin: 0 5px;
   padding: 10px 10px;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-   /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); */
   letter-spacing: 0.00625em;
   border: 0;
   overflow: hidden;
